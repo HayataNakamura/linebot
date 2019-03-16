@@ -21,7 +21,8 @@ res=Response()
 
 #Herokuの変数からトークンなどを取得
 channel_secret = os.environ['264b57c401f98ec9c16f5fd36ffe4869']
-channel_access_token = os.environ['C2ncOUWDFD3R5C3TTWDAGi/elTwMRiXCqW/A1BMJeyll626Rgl7ysywO20X7ntOyjMYVPYJlki/CbGFLrqqq3kXjBx9rjPSMdPT2XgvgXxLGVafEjA7LR6jOXIQBw5xPh46jJwGasn6wwZnEOcS/yAdB04t89/1O/w1cDnyilFU=']
+channel_access_token = os.environ['uDoFbY4BEZ74hu3/u/HGjrK1QDsrouF9h76b8K3Bbp9lXfYmYpKrVakM5+hj+abojMYVPYJlki/CbGFLrqqq3kXjBx9rjPSMdPT2XgvgXxJxi2S/BQDjoaK1DJF7Hr+ledt2AWBwzyVIXw2wh+bfyAdB04t89/1O/w1cDnyilFU=
+再発行']
 if channel_secret is None:
     print('Specify LINE_CHANNEL_SECRET as environment variable.')
     sys.exit(1)
